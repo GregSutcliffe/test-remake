@@ -1,0 +1,25 @@
+theme = "lynx"
+title = "Remake Test Form"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Remake Test Form"
+  headline = "A simple site to test a form"
+  image = "remake.png"
+  links = [
+    { link = { href = "https://remakescotland.co.uk/index.html", text = "Remake Home", icon = "home" } },
+    { twitter = "https://twitter.com/remake_scotland" },
+    { facebook = "https://www.facebook.com/remakescotlandcrafts" },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+    custom_css = ["css/form.css"]
